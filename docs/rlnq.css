@@ -543,3 +543,17 @@ input.button {
 	border-bottom: 1px dashed #D4D4D4;
 	text-align: justify;
 }
+
+.program-schedule {
+	width: 95%;
+}
+
+.program-schedule .time {
+	width: 155px;
+	white-space: nowrap;
+}
+
+.session-speakers {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
