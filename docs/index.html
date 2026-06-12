@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="rlnq.css" type="text/css">
 <title>QMETRICS 2026</title>
 </head>
@@ -32,6 +32,7 @@
       <li> <a href="#keynotes">  <h4> Keynotes </h4> </a> </li>
       <li> <a href="#technical-program">  <h4> Technical Program </h4> </a> </li>
       <li> <a href="#commitee">  <h4> Organizers  </h4> </a> </li>
+      <li> <a href="#talks">  <h4> Talks &amp; Abstracts </h4> </a> </li>
     </ul>	
     
   </div>		
@@ -103,9 +104,8 @@ Submission link will be provided soon.
 <h2 id="keynotes">Keynote Speakers</h2>
 
 <ul>
-  <li>Christopher Monroe, Duke University &amp; IonQ</li>
-  <li>Mark Squillante, IBM</li>
-  <li>Reza Nejabati, Cisco</li>
+  <li><a href="#monroe">Christopher Monroe</a>, Duke University &amp; IonQ</li>
+  <li><a href="#squillante">Mark S. Squillante</a>, IBM Research</li>
 </ul>
 
 
@@ -124,7 +124,7 @@ Submission link will be provided soon.
   </tr>
   <tr class="row-b">
     <td class="time">11:00 - 11:50 AM</td>
-    <td>Keynote Talk 1 (Christopher Monroe, Duke University &amp; IonQ)</td>
+    <td><a href="#monroe">Keynote Talk 1: Quantum Computers based on Atomic Qubits (Christopher Monroe, Duke University &amp; IonQ)</a></td>
   </tr>
   <tr class="row-a">
     <td class="time">11:50 AM - 1:00 PM</td>
@@ -132,7 +132,7 @@ Submission link will be provided soon.
   </tr>
   <tr class="row-b">
     <td class="time">1:00 - 1:50 PM</td>
-    <td>Keynote Talk 2 (Mark Squillante, IBM)</td>
+    <td><a href="#squillante">Keynote Talk 2: On the Entanglement of Performance Evaluation and Quantum Computing (Mark S. Squillante, IBM Research)</a></td>
   </tr>
   <tr class="row-a">
     <td class="time">1:50 - 2:15 PM</td>
@@ -143,19 +143,11 @@ Submission link will be provided soon.
     <td>
       Short Talks Session
       <ul class="session-speakers">
-        <li>R. Srikant (UIUC)</li>
-        <li>Nitish K. Panigrahy (Binghamton University, USA)</li>
-        <li>Kaushik P. Seshadreesan (University of Pittsburgh, USA)</li>
+        <li><a href="#srikant">R. Srikant (UIUC): Quantum Estimation of Tail Probabilities in Stochastic Networks</a></li>
+        <li><a href="#panigrahy">Nitish K. Panigrahy (Binghamton University, USA): A Framework for Distributed Resource Allocation in Quantum Networks</a></li>
+        <li><a href="#seshadreesan">Kaushik P. Seshadreesan (University of Pittsburgh, USA): Sequential vs. Simultaneous Entanglement Swapping: The Connection-less Penalty in Memory-Constrained Quantum Networks</a></li>
       </ul>
     </td>
-  </tr>
-  <tr class="row-a">
-    <td class="time">3:15 - 3:45 PM</td>
-    <td>Break</td>
-  </tr>
-  <tr class="row-b">
-    <td class="time">3:45 - 4:35 PM</td>
-    <td>Keynote Talk 3 (Reza Nejabati, Cisco)</td>
   </tr>
 </table>
 
@@ -167,6 +159,44 @@ Submission link will be provided soon.
   <li>Neil Walton, Durham University</li>
 </ul>
     
+<h2 id="talks">Talks and Abstracts</h2>
+
+<div class="talk" id="monroe">
+  <h3>Christopher Monroe <span class="affiliation">(Duke University and IonQ)</span></h3>
+  <p class="talk-title">Quantum Computers based on Atomic Qubits</p>
+  <p>Quantum computers exploit the bizarre features of quantum physics -- uncertainty, entanglement, and measurement -- to perform tasks that are impossible using conventional means. These may include the computing and optimizing over ungodly amounts of data; breaking encryption standards; simulating models of chemistry and materials; and communicating via quantum teleportation. The most promising physical platform being developed today are based on individual atom qubits, controlled with electromagnetic fields and ultimately networked using single optical photons. The challenges to scale are based on advances in engineering and optical integration, not fundamental physics. I will summarize this technological development and the state-of-the-art, propelled by academia, government, and especially industry.</p>
+  <p><a href="#technical-program">Back to schedule</a></p>
+</div>
+
+<div class="talk" id="squillante">
+  <h3>Mark S. Squillante <span class="affiliation">(IBM Research)</span></h3>
+  <p class="talk-title">On the Entanglement of Performance Evaluation and Quantum Computing</p>
+  <p>Solving for measures of interest in performance evaluation studies of computer and communication systems can be prohibitively expensive for large systems. Quantum computers offer the potential of achieving significant performance improvements for certain computational problems. We therefore consider a general class of queueing systems at the intersection of performance evaluation and quantum computing environments. After a high-level overview of some basics of quantum computing, we shall present a general class of performance evaluation problems, provide quantum algorithms that compute solutions for measures of interest, and then show the potential for significant speedups over the most-efficient numerical methods on classical computers. Although motivated by queueing systems arising in performance evaluation studies of computer and communication systems, our quantum algorithms can be exploited to address a larger class of computational problems.</p>
+  <p><a href="#technical-program">Back to schedule</a></p>
+</div>
+
+<div class="talk" id="srikant">
+  <h3>R. Srikant <span class="affiliation">(UIUC)</span></h3>
+  <p class="talk-title">Quantum Estimation of Tail Probabilities in Stochastic Networks</p>
+  <p>Estimating delay/queue length tail probabilities in scheduling and load balancing systems is a critical but computationally prohibitive task due to the rarity of violation events. Quantum Amplitude Estimation (QAE) offers a generic quadratic reduction in sample complexity 1/sqrt(p) vs 1/p but applying it to steady-state queueing networks is challenging: classical simulations involve unbounded state spaces and random regeneration cycles, whereas quantum circuits have fixed depth and finite registers.</p>
+  <p>In this talk, we will present a framework for quantum simulation of delay tail probabilities based on truncated regenerative simulation. We show that regenerative rare-event estimators can be reformulated as deterministic, reversible functions of finite random seeds by truncating regeneration cycles. To control the resulting bias, we use Lyapunov drift and concentration arguments to derive exponential tail bounds on regeneration times. This allows the truncation horizon--and hence the quantum circuit depth--to be chosen such that the bias is provably negligible compared to the statistical error.</p>
+  <p><a href="#technical-program">Back to schedule</a></p>
+</div>
+
+<div class="talk" id="panigrahy">
+  <h3>Nitish K. Panigrahy <span class="affiliation">(Binghamton University, USA)</span></h3>
+  <p class="talk-title">A Framework for Distributed Resource Allocation in Quantum Networks</p>
+  <p>Quantum networks promise global-scale entanglement distribution with potential applications in communication, computing and sensing. Realizing this vision requires efficient management of scarce and fragile entanglement resources among users with diverse Quality-of-Service requirements. In this talk, I will introduce such a resource allocation framework that relies on feedback-based, decentralized coordination to serve multiple co-existing applications. I will present quantum network control algorithms under the mathematical framework of Quantum Network Utility Maximization (QNUM), where utility functions quantify network performance by mapping entanglement rate and quality into a joint optimization objective. I will introduce QPrimal-Dual, a decentralized, scalable algorithm that solves QNUM by strategically placing network controllers that operate using local state information and limited classical message exchange. I will prove global asymptotic stability for concave, separable utility functions, and provide sufficient conditions for local stability for broader non-concave cases. To reduce control overhead and account for quantum memory decoherence, I will also discuss schemes that locally approximate global quantities and prevent congestion in the network. I will present simulation results showing that QPrimal-Dual significantly outperforms baseline allocation strategies, scales with network size, and is robust to latency and decoherence. Our observations suggest that QPrimal-Dual could be a practical, high-performance foundation for fully distributed resource allocation in quantum networks.</p>
+  <p><a href="#technical-program">Back to schedule</a></p>
+</div>
+
+<div class="talk" id="seshadreesan">
+  <h3>Kaushik P. Seshadreesan <span class="affiliation">(University of Pittsburgh, USA)</span></h3>
+  <p class="talk-title">Sequential vs. Simultaneous Entanglement Swapping: The Connection-less Penalty in Memory-Constrained Quantum Networks</p>
+  <p>We quantify the performance penalty of connection-less sequential entanglement swapping relative to connection-oriented simultaneous SWAP-ASAP in a two-layer quantum network architecture under near-term memory-lifetime constraints. The two protocols differ fundamentally in their control-plane requirements: sequential admits a fully distributed implementation in which each node acts on local state alone, while simultaneous SWAP-ASAP requires centralized route reservation and a synchronized swap trigger across all nodes. Fixing the link layer with a reinforcement-learning (RL) policy that we show is dimensionally invariant across hardware configurations, we isolate the network-layer protocol as the sole independent variable. Sweeping the dimensionless ratio (T_c^ext /τ) of network-layer memory lifetime to per-link heralding latency reveals a clear regime structure: simultaneous SWAP-ASAP delivers a constant end-to-end utility throughout, whereas sequential collapses to zero below a threshold, recovers as memory lifetimes relax, and asymptotically saturates the simultaneous rate. These results indicate that the connection-less penalty is a near-term phenomenon tied to limited present-day memory coherence, not a fundamental property of sequential swapping.</p>
+  <p><a href="#technical-program">Back to schedule</a></p>
+</div>
+
 <!-- content-wrap ends here -->		
 </div></div>
 
